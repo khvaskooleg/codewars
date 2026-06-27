@@ -8,7 +8,7 @@
 // Input: 123456789 Output: 987654321
 
 function descendingOrder(n){
-  let array = String(n).split('').map(Number).sort((a, b) => b - a);;
+  let array = String(n).split('').map(Number).sort((a, b) => b - a);
   const num = Number(array.join(''));
   return num;
 }
